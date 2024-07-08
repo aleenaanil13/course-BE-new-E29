@@ -16,5 +16,5 @@ app.get("/", (req, res) => {
 app.listen(serverConfig.Port, () => {
   console.log(`Example app listening on port ${serverConfig.Port}`);
   dbConnect();
-  console.log("Db connected test");
+  console.log("Db connected checking connection");
 });
